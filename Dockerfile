@@ -3,10 +3,10 @@
 # docker run -d --name sugarcrm -p 80:80 --link sugarcrm-mysql:mysql mwaeckerlin/sugarcrm
 
 FROM ubuntu
-MAINTAINER mwaeckerlin
+# MAINTAINER mwaeckerlin
 
 EXPOSE 80
-ENV TIMEZONE "Europe/Zurich"
+# ENV TIMEZONE "Europe/Zurich"
 
 RUN mkdir /sugar
 WORKDIR /sugar
